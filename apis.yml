@@ -1,7 +1,22 @@
 aid: vamo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vamo.png
 name: Vamo
-description: Vamo is a company surfaced as a portfolio company of dcvc, slow-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Vamo was a San Francisco travel startup offering multi-city trip planning
+  that automatically found the best combination of open-jaw flights, low-cost carriers,
+  trains, buses, ferries, and hotels for international itineraries. Backed by DCVC and
+  Slow Ventures, the team joined Airbnb on September 11, 2015 and the product was shut
+  down, so no API surface exists; vamo.com is now parked at MarkMonitor.
 url: https://raw.githubusercontent.com/api-evangelist/vamo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +25,20 @@ x-backed-by:
 - slow-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: Acquired by Airbnb 2015-09-11 (announcement preserved at
+  https://web.archive.org/web/20151224151619/https://www.vamo.com/); product shut down
+  and vamo.com parked at MarkMonitor (HTTPS unreachable, no MX/SPF/DMARC).
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Travel
+- Trip Planning
+- Transportation
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +48,8 @@ maintainers:
 common:
 - type: Website
   url: https://vamo.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
