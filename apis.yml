@@ -29,7 +29,7 @@ x-status: defunct
 x-status-detail: Acquired by Airbnb 2015-09-11 (announcement preserved at
   https://web.archive.org/web/20151224151619/https://www.vamo.com/); product shut down
   and vamo.com parked at MarkMonitor (HTTPS unreachable, no MX/SPF/DMARC).
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
